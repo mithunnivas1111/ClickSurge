@@ -533,6 +533,139 @@ div[data-testid="stExpander"] {
   border-radius: 12px !important;
   background: var(--surface) !important;
 }
+
+/* ════════════════════════════════
+   MOBILE RESPONSIVENESS
+════════════════════════════════ */
+
+/* Tablet: ≤ 900px */
+@media (max-width: 900px) {
+  .cs-page { padding: 16px 14px; }
+
+  .kpi-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .kpi-value { font-size: 1.5rem; }
+
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cs-ph {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .welcome-hero { padding: 32px 28px; }
+  .welcome-title { font-size: 1.75rem; }
+  .welcome-hero::after { display: none; }
+
+  .issue-card { gap: 10px; }
+  .issue-stats { min-width: 110px; }
+
+  .cs-nav { padding: 0 14px; }
+  .cs-nav-ts { display: none; }
+}
+
+/* Mobile: ≤ 600px */
+@media (max-width: 600px) {
+  .cs-page { padding: 12px 10px; }
+
+  /* Nav */
+  .cs-nav { padding: 0 10px; height: 48px; }
+  .cs-nav-name { font-size: 0.95rem; }
+  .cs-nav-tag:not(.hi) { display: none; }
+
+  /* KPI grid: 2 columns on small screens */
+  .kpi-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+  .kpi-card { padding: 12px 14px 10px; border-radius: 12px; }
+  .kpi-chip { width: 24px; height: 24px; font-size: 0.75rem; top: 10px; right: 10px; }
+  .kpi-value { font-size: 1.3rem; }
+  .kpi-label { font-size: 0.6rem; }
+  .kpi-delta { font-size: 0.65rem; }
+
+  /* Welcome hero */
+  .welcome-hero { padding: 24px 18px; border-radius: 12px; }
+  .welcome-title { font-size: 1.4rem; }
+  .welcome-sub { font-size: 0.82rem; }
+  .welcome-hero::before { display: none; }
+  .welcome-hero::after { display: none; }
+
+  /* Feature grid: single column */
+  .feature-grid { grid-template-columns: 1fr; gap: 10px; }
+  .feature-card { padding: 16px; }
+
+  /* Issue cards: stack vertically */
+  .issue-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px 14px;
+  }
+  .issue-stats {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: unset;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .gain-badge { font-size: 0.82rem; padding: 4px 10px; }
+  .issue-rank { min-width: unset; }
+  .issue-page { font-size: 0.72rem; }
+  .issue-action { font-size: 0.78rem; }
+
+  /* Cannibalization cards */
+  .cannib-card { padding: 14px; }
+  .cannib-query { font-size: 0.88rem; }
+
+  /* Tabs: smaller text, scrollable */
+  .stTabs [data-baseweb="tab-list"] {
+    overflow-x: auto !important;
+    flex-wrap: nowrap !important;
+    padding: 0 8px !important;
+  }
+  .stTabs [data-baseweb="tab"] {
+    font-size: 0.75rem !important;
+    padding: 10px 10px !important;
+    white-space: nowrap !important;
+  }
+  .stTabs [data-baseweb="tab-panel"] {
+    padding: 14px !important;
+  }
+
+  /* Page header */
+  .cs-ph { gap: 8px; }
+  .cs-ph-title { font-size: 1.05rem; }
+  .cs-health-pill { font-size: 0.72rem; padding: 6px 10px; }
+
+  /* Metrics */
+  div[data-testid="metric-container"] { padding: 10px !important; }
+  div[data-testid="metric-container"] [data-testid="stMetricValue"] {
+    font-size: 1.1rem !important;
+  }
+
+  /* Winner / declining cards */
+  .winner-card, .declining-card {
+    flex-direction: column;
+    gap: 10px;
+    padding: 14px;
+  }
+
+  /* Sidebar collapsed control more visible on mobile */
+  [data-testid="collapsedControl"] {
+    top: 10px; left: 10px;
+  }
+
+  /* Block container breathing room */
+  .block-container { padding: 0 !important; }
+}
 </style>
 """, unsafe_allow_html=True)
 
