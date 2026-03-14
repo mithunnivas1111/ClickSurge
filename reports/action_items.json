@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ACT-0001",
+    "page": "https://demo-store.com/product/new-balance-gym-shoes-935",
+    "issue_type": "Low CTR",
+    "priority": "High",
+    "description": "Position #1.7: actual CTR 3.1% vs 19.2% expected (16% of benchmark). Fixing could add +6,095 clicks/mo. CRITICAL: Top 3 but low CTR. Rewrite title with number/power word. Add FAQ schema. Add review schema for star ratings in SERPs.",
+    "assigned_to": "",
+    "due_date": "",
+    "status": "To Do",
+    "notes": "",
+    "created_at": "2026-03-09T16:37:32.934756",
+    "updated_at": "2026-03-09T16:37:32.934760"
+  },
+  {
+    "id": "ACT-0002",
+    "page": "https://demo-store.com/blog/cushioning-guide-2024",
+    "issue_type": "Low CTR",
+    "priority": "High",
+    "description": "Position #2.6: actual CTR 3.3% vs 12.7% expected (26% of benchmark). Fixing could add +2,928 clicks/mo. CRITICAL: Top 3 but low CTR. Rewrite title with number/power word. Add FAQ schema. Add FAQ schema for expanded SERP presence.",
+    "assigned_to": "",
+    "due_date": "",
+    "status": "To Do",
+    "notes": "",
+    "created_at": "2026-03-11T23:17:21.411688",
+    "updated_at": "2026-03-11T23:17:21.411694"
+  },
+  {
+    "id": "ACT-0003",
+    "page": "https://demo-store.com/blog/cushioning-guide-2024",
+    "issue_type": "Low CTR",
+    "priority": "High",
+    "description": "Position #2.6: actual CTR 3.3% vs 12.7% expected (26% of benchmark). Fixing could add +2,928 clicks/mo. CRITICAL: Top 3 but low CTR. Rewrite title with number/power word. Add FAQ schema. Add FAQ schema for expanded SERP presence.",
+    "assigned_to": "",
+    "due_date": "",
+    "status": "To Do",
+    "notes": "",
+    "created_at": "2026-03-11T23:17:28.737349",
+    "updated_at": "2026-03-11T23:17:28.737355"
+  },
+  {
+    "id": "ACT-0004",
+    "page": "https://demo-store.com/brands/under-armour",
+    "issue_type": "Low CTR",
+    "priority": "High",
+    "description": "Position #4.1: actual CTR 2.0% vs 7.7% expected (26% of benchmark). Fixing could add +1,890 clicks/mo. Rewrite title tag. A/B test with numbers and current year. Add structured data.",
+    "assigned_to": "",
+    "due_date": "",
+    "status": "To Do",
+    "notes": "",
+    "created_at": "2026-03-11T23:17:30.418686",
+    "updated_at": "2026-03-11T23:17:30.418690"
+  }
+]
